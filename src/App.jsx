@@ -1,6 +1,6 @@
 import Template from "./Templates/Portfolio";
 import ClickSpark from "./Components/ClickSpark/ClickSpark";
-function app() {
+function App() {
   return (
     <>
       <ClickSpark
