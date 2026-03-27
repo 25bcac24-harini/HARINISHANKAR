@@ -15,7 +15,7 @@ function About() {
           <div className="flex-shrink-0">
             <img
               src={Profile}
-              alt="Suhail"
+              alt="Harini"
               className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-sky-400 shadow-lg object-cover mt-2"
             />
           </div>
@@ -23,7 +23,7 @@ function About() {
             <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-sky-400">
               <TextType
                 text={[
-                  "Hi, i am Suhail Hilal","A professional Developer"
+                  "Hi, i am Harini Shankar","A professional Developer"
                 ]}
                 typingSpeed={55}
                 pauseDuration={600}

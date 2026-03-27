@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 sm:px-10 flex flex-col md:flex-row justify-between items-center gap-6">
 
         <div className=" cursor-target text-2xl font-bold text-sky-400 animate-pulse">
-          Suhail Hilal
+          Harini Shankar
         </div>
 
         <ul className="flex flex-wrap justify-center gap-6 text-white font-medium">
@@ -22,14 +22,14 @@ export default function Footer() {
         </ul>
 
         <div className="flex flex-wrap justify-center gap-6 text-slate-300">
-          <a href="mailto:suhailhilal92@gmail.com" className="cursor-target hover:text-sky-400 transition-colors">Email</a>
+          <a href="mailto:harinishankar@example.com" className="cursor-target hover:text-sky-400 transition-colors">Email</a>
           <a href="tel:+919797935307" className="cursor-target hover:text-sky-400 transition-colors">Phone</a>
           <a href="https://github.com/" target="_blank" className="cursor-target hover:text-sky-400 transition-colors">GitHub</a>
           <a href="https://linkedin.com/" target="_blank" className="cursor-target hover:text-sky-400 transition-colors">LinkedIn</a>
         </div>
       </div>
       <p className="text-center text-slate-400 mt-6 text-sm">
-        © {new Date().getFullYear()} Suhail Hilal. All rights reserved.
+        © {new Date().getFullYear()} Harini Shankar. All rights reserved.
       </p>
     </footer>
     

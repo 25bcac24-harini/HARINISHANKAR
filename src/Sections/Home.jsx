@@ -4,7 +4,7 @@ import RotatingText from "../Components/RotatingText/RotatingText";
 import TextType from "../Components/TextTyping/TextTyping";
 
 function Home() {
-  const textArray = ["Hello", "I'm Suhail Hilal"];
+  const textArray = ["Hello", "I'm Harini Shankar"];
 
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");

@@ -37,7 +37,7 @@ function ContactUs()
             </button>
           </form>
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-8 text-slate-300">
-            <p>Email: <span className="text-sky-400">suhailhilal92@gmail.com</span></p>
+            <p>Email: <span className="text-sky-400">harinishankar@example.com</span></p>
             <p>Phone: <span className="text-sky-400">+91 9797935307</span></p>
             <p>Location: <span className="text-sky-400">Srinagar, Kashmir</span></p>
           </div>

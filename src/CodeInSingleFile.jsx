@@ -4,7 +4,7 @@ import Profile from "../Images/Template/profileImg.png";
 function TemplateMainData() {
   const [isOpen, setIsOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");
-  const textArray = ["Hello", "I'm Suhail Hilal"];
+  const textArray = ["Hello", "I'm Harini Shankar"];
 
   const [index, setIndex] = useState(0);
   const [text, setText] = useState("");
@@ -50,9 +50,10 @@ function TemplateMainData() {
     };
 
     window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-
-    return () => clearTimeout(timeoutId);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      clearTimeout(timeoutId);
+    };
   }, [text, index, isDeleting]);
 
   const navItems = [
@@ -67,7 +68,7 @@ function TemplateMainData() {
 
           <header className="w-screen bg-slate-900/80 backdrop-blur-md fixed top-0 z-50 shadow-md border-b-2 border-sky-400 box-border">
       <div className="max-w-7xl mx-auto flex justify-between items-center h-20 px-6 sm:px-10">
-        <div className="text-2xl font-bold text-sky-400 animate-pulse">Suhail</div>
+        <div className="text-2xl font-bold text-sky-400 animate-pulse">Harini</div>
 
         <ul className="hidden md:flex gap-10 text-white font-medium">
           {navItems.map((item) => (
@@ -182,13 +183,13 @@ function TemplateMainData() {
           <div className="flex-shrink-0">
             <img
               src={Profile}
-              alt="Suhail"
+              alt="Harini"
               className="w-32 h-32 sm:w-40 sm:h-40 rounded-full border-4 border-sky-400 shadow-lg object-cover mt-2"
             />
           </div>
           <div className="text-center md:text-left">
             <h3 className="text-2xl sm:text-3xl font-semibold mb-4 text-sky-400">
-              Hi, I'm Suhail 👋
+              Hi, I'm Harini 👋
             </h3>
             <p className="text-slate-300 leading-relaxed mb-4">
               I'm a passionate{" "}
@@ -252,7 +253,7 @@ function TemplateMainData() {
           <div className="flex flex-col sm:flex-row justify-center items-center gap-6 mt-8 text-slate-300">
             <p>
               Email:{" "}
-              <span className="text-sky-400">suhailhilal92@gmail.com</span>
+              <span className="text-sky-400">harinishankar@example.com</span>
             </p>
             <p>
               Phone: <span className="text-sky-400">+91 9797935307</span>
@@ -267,7 +268,7 @@ function TemplateMainData() {
       <footer className="w-full bg-gradient-to-br from-slate-900 to-slate-800/90 backdrop-blur-md border-t-2 border-sky-400 text-white py-8 box-border">
         <div className="max-w-7xl mx-auto px-6 sm:px-10 flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="text-2xl font-bold text-sky-400 animate-pulse">
-            Suhail Hilal
+            Harini Shankar
           </div>
 
           <ul className="flex flex-wrap justify-center gap-6 text-white font-medium">
@@ -286,7 +287,7 @@ function TemplateMainData() {
 
           <div className="flex flex-wrap justify-center gap-6 text-slate-300">
             <a
-              href="mailto:suhailhilal92@gmail.com"
+              href="mailto:harinishankar@example.com"
               className="hover:text-sky-400 transition-colors"
             >
               Email
@@ -315,7 +316,7 @@ function TemplateMainData() {
         </div>
 
         <p className="text-center text-slate-400 mt-6 text-sm">
-          © {new Date().getFullYear()} Suhail Hilal. All rights reserved.
+          © {new Date().getFullYear()} Harini Shankar. All rights reserved.
         </p>
       </footer>
     </>
